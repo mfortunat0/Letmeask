@@ -1,0 +1,4 @@
+- [ ] Responsividade
+- [ ] Tema Dark
+- [ ] PWA
+- [ ] Eslint & Prettier
