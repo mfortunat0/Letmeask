@@ -4,7 +4,6 @@ import RoomCode from "../components/RoomCode";
 import { useHistory, useParams } from "react-router-dom";
 import Question from "../components/Question";
 import { useRoom } from "../hooks/useRoom";
-import { useAuth } from "../hooks/useAuth";
 import { database } from "../services/firebase";
 import DeleteImg from "../assets/images/delete.svg";
 import CheckImg from "../assets/images/check.svg";
@@ -17,7 +16,6 @@ type RoomParams = {
 };
 
 export default function AdminRoom() {
-  //const { user } = useAuth();
   const history = useHistory();
   const params = useParams<RoomParams>();
   const roomId = params.id;
