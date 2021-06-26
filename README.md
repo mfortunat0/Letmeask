@@ -16,7 +16,6 @@ Letmeask e um app para gerenciar salas de perguntas e respostas, desenvolvido na
 ## Desafios do proximo nivel
 
 - [x] Responsividade
-- [ ] Tema Dark
 - [x] PWA
 - [x] Eslint & Prettier
 - [x] Deploy
