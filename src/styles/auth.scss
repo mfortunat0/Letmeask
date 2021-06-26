@@ -127,3 +127,11 @@
     }
   }
 }
+
+@media (max-width: 840px) {
+  #page-auth {
+    aside {
+      display: none;
+    }
+  }
+}

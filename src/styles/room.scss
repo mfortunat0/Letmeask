@@ -1,14 +1,13 @@
 #page-room {
   header {
-    padding: 20px 2px;
+    padding: 20px 0px;
     border-bottom: 1px solid #e2e2e2;
 
     .content {
-      max-width: 1120px;
-      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 0 10vw 0 10vw;
 
       > img {
         max-height: 45px;
@@ -27,6 +26,7 @@
   main {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 20px;
 
     .room-title {
       margin: 32px 0 24px;
@@ -102,6 +102,62 @@
 
     .question-list {
       margin-top: 32px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #page-room {
+    header {
+      .content {
+        padding: 0 3vw 0 3vw;
+      }
+    }
+    main {
+      padding: 0 3vw 0 3vw;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #page-room {
+    main {
+      .room-title {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #page-room {
+    header {
+      .content {
+        > div {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  #page-room {
+    header {
+      .content {
+        flex-direction: column;
+        gap: 5vh;
+      }
+    }
+    main {
+      .room-title {
+        h1 {
+          text-align: center;
+        }
+      }
     }
   }
 }

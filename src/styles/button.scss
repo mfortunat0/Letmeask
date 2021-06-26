@@ -16,15 +16,23 @@
     margin-right: 8px;
   }
 
+  &:not(:disabled, .outlined):hover {
+    filter: brightness(0.1);
+  }
+
   &.outlined {
     background-color: #fff;
     border: 1px solid #835afd;
     color: #835afd;
+    transition: all 0.2s ease-in-out;
+    filter: brightness(1);
+
+    &:hover {
+      background-color: #835afd;
+      color: #fff;
+    }
   }
 
-  &:not(:disabled):hover {
-    filter: brightness(0.9);
-  }
   &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
