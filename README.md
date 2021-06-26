@@ -2,6 +2,7 @@
   <img src="./src/assets/images/logo.svg"/>
 </h1>
 Letmeask e um app para gerenciar salas de perguntas e respostas, desenvolvido na 6 edição do NLW - Next Level Week proporcionado pela Rocketseat.
+[Deploy](https://letmeask-nlw6-swart.vercel.app/)
 
 ![Home](./.github/home-2021-06-25.png)
 
@@ -18,6 +19,7 @@ Letmeask e um app para gerenciar salas de perguntas e respostas, desenvolvido na
 - [ ] Tema Dark
 - [x] PWA
 - [x] Eslint & Prettier
+- [x] Deploy
 
 ## Preview da responsividade
 
