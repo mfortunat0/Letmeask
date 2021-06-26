@@ -4,7 +4,9 @@
 Letmeask e um app para gerenciar salas de perguntas e respostas, desenvolvido na 6 edição do NLW - Next Level Week proporcionado pela Rocketseat.
 
 ![Home](./.github/home-2021-06-25.png)
+
 ## Tecnlogias ultilizadas
+
 - React
 - Sass
 - Typescript
@@ -14,8 +16,9 @@ Letmeask e um app para gerenciar salas de perguntas e respostas, desenvolvido na
 
 - [x] Responsividade
 - [ ] Tema Dark
-- [ ] PWA
+- [x] PWA
 - [ ] Eslint & Prettier
 
 ## Preview da responsividade
+
 ![Home](./.github/responsive-2021-06-25.gif)
